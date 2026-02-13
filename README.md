@@ -15,7 +15,7 @@ Table of Contents
 
 ---
 
-Project Overview
+## Project Overview
 
 Choosing the right career path can be challenging for students and professionals. AI Career Coach analyzes resumes using NLP techniques and compares extracted skills with predefined role skill sets.
 
@@ -23,7 +23,7 @@ By identifying missing skills and calculating match percentages, the system help
 
 ---
 
-Features
+## Features
 
 Predicts suitable career roles (Data Scientist, ML Engineer, NLP Engineer, Data Analyst)
 
@@ -39,9 +39,7 @@ Generates structured learning roadmap (Foundations → Core → Advanced)
 Implemented using Python, spaCy, Sentence Transformers, and Streamlit  
 Provides real-time interactive results  
 
----
-
-Dataset
+## Dataset
 
 The project uses resume text data as input and predefined role skill profiles for comparison.
 Key extracted features include:
@@ -52,7 +50,7 @@ Key extracted features include:
   Data Tools  
   Domain Knowledge  
 
-Usage
+## Usage
 
 Upload your resume (TXT / PDF).
 The system extracts skills using NLP.
@@ -60,7 +58,7 @@ Role match percentage is calculated.
 Missing skills are identified.
 A personalized learning roadmap is generated.
 
-Model Architecture
+## Model Architecture
 
 Resume Text Input
 ↓
@@ -76,7 +74,8 @@ Learning Roadmap Generator
 ↓
 Streamlit Dashboard Output
 
-Output
+## Output
+
 <img width="1263" height="690" alt="image" src="https://github.com/user-attachments/assets/9f670c9e-8ab9-4683-834b-6a51d1e38ca5" />
 
 <img width="1258" height="698" alt="image" src="https://github.com/user-attachments/assets/194de6c5-9d6c-4d16-9ac8-e89d037cc9d3" 
