@@ -1,49 +1,56 @@
-# AI Career Coach 🚀
+AI Career Coach 🚀
 
-AI Career Coach is an end-to-end NLP project that evaluates resumes and determines how well a candidate fits roles such as Data Scientist, Machine Learning Engineer, NLP Engineer, and Data Analyst.
-The system extracts skills from resumes, performs structured skill gap analysis, calculates realistic match scores, and generates a stage-wise learning roadmap (Foundations → Core → Advanced) to guide users toward job readiness.
+AI Career Coach is a Deep Learning and NLP project that evaluates resumes and predicts the most suitable career path for candidates. The system uses Natural Language Processing techniques and embedding models to analyze skills such as programming, machine learning, data analysis, NLP, and statistics to determine role fit and missing competencies.
 
-## Table of Contents
-- Project Overview  
-- Features  
-- Architecture  
-- Installation  
-- Usage  
-- Model & Logic  
-- Results  
-- Contributing  
-- License  
+---
 
-## Project Overview
-Choosing the right career path and identifying missing skills can be challenging for aspiring professionals. AI Career Coach helps bridge this gap by analyzing resumes and comparing them against predefined role skill profiles.
-Instead of simple keyword matching, the system uses NLP-based skill extraction and embedding logic to provide explainable, structured career insights.
+Table of Contents
 
-## Features
+Project Overview  
+Features  
+Dataset  
+Installation  
+Usage  
+Model Architecture  
+Results  
+Contributing  
+License  
 
-- Resume upload (TXT / PDF)
-- Automatic skill extraction using NLP
-- Role-based skill gap analysis
-- Match percentage scoring
-- Personalized learning roadmap generation
-- Interactive Streamlit dashboard
-- Modular and extensible architecture
+---
 
-## Architecture
+Project Overview
 
-The project follows a modular design:
+Choosing the right career path can be challenging for students and professionals. AI Career Coach analyzes resumes using NLP techniques and compares extracted skills with predefined role skill sets.
 
-- Resume Parsing Module (spaCy + embeddings)
-- Role Profile Definition
-- Skill Gap Analysis Engine
-- Learning Roadmap Generator
-- Streamlit UI Layer
+By identifying missing skills and calculating match percentages, the system helps users understand their strengths and areas for improvement, enabling structured career growth.
 
-This structure allows easy expansion to new job roles without modifying the core logic.
+---
 
-## Installation
+Features
 
-### 1️⃣ Clone the Repository
+Predicts suitable career roles (Data Scientist, ML Engineer, NLP Engineer, Data Analyst)
 
-```bash
-git clone <your-repo-url>
-cd ai_career_coach
+Uses resume attributes such as:
+Programming skills  
+Machine learning frameworks  
+Data analysis tools  
+Statistics knowledge  
+NLP techniques  
+
+Identifies skill gaps  
+Generates structured learning roadmap (Foundations → Core → Advanced)  
+Implemented using Python, spaCy, Sentence Transformers, and Streamlit  
+Provides real-time interactive results  
+
+---
+
+Dataset
+
+The project uses resume text data as input and predefined role skill profiles for comparison.
+Key extracted features include:
+
+Technical Skills  
+Programming Languages  
+ML Frameworks  
+Data Tools  
+Domain Knowledge  
